@@ -37,7 +37,7 @@ $ yarn run start:dev
 ALPHA_VANTAGE_API_KEY=your_key
 ```
 ## App running
-- Visit http://localhost:3300/graphql to see Graplql playground and API documentation
+- Visit http://localhost:3300/graphql to see Graphql playground and API documentation
 - Example Query 
 ```bash
 query GetStockPrice {
