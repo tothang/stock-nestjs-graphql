@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input GetStockPriceInput {
+  date: String
+  interval: String
+  ticker: String
+}
+
+type Query {
+  getStockPrice(input: GetStockPriceInput!): [Stock!]!
+}
+
+"""Stock"""
+type Stock {
+  close: Float!
+  date: String!
+  high: Float!
+  id: String!
+  low: Float!
+  open: Float!
+  ticker: String!
+  volume: Float!
+}

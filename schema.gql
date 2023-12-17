@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+directive @upper on FIELD_DEFINITION
+
+"""stock"""
+type Stock {
+  id: String!
+  description: String
+  ingredients: [String!]!
+}
+
+type Query {
+  stock(id: String!): Stock!
+}
